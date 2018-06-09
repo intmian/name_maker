@@ -71,9 +71,10 @@ def makeName():#制作用中文名字
         strR += str(int(random.random()*10))
     return strR
     
-def makeNamePinyin(divide):#制作中文名字的拼音，用你输入的参数隔开
-    strR = ""
+def makeNamePinyin(divide1,divide2):#制作中文名字的拼音，用你输入的参数隔开
     choice = random.choice
-    strR += choice(_first) + " " + choice(_second)+ choice(choice(_ming))
+    strR = choice(_first) 
+    strR2 = choice(_first)
     strR = _p.get_pinyin(strR, divide)
-    return strR
+    strR2 = _p.get_pinyin(strR2, divide2)
+    return strR1 + divide1 + str2
