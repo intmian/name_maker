@@ -1,5 +1,9 @@
 # name_maker
 
+## what's it
+
+It's a program help you make a normal Chinese name and its pingyin.
+
 ## prepare
 
 1. open your cmd 
