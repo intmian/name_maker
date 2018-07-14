@@ -75,6 +75,6 @@ def makeNamePinyin(divide1,divide2):#制作中文名字的拼音，用你输入�
     choice = random.choice
     strR = choice(_first) 
     strR2 = choice(_first)
-    strR = _p.get_pinyin(strR, divide)
+    strR = _p.get_pinyin(strR, divide2)
     strR2 = _p.get_pinyin(strR2, divide2)
-    return strR1 + divide1 + str2
+    return strR + divide1 + strR2
